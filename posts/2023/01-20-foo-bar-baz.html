@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple test post for the fun of it.">
+    <title>Just another test post | ACAP</title>
+    <link rel="preload" type="text/css" as="style" href="/assets/app.css">
+    <link rel="stylesheet" type="text/css" href="/assets/app.css">
+    <script rel="preload" type="text/javascript" src="/assets/app.js" as="script">
+    </script>
+  </head>
+
+  <script is:inline>
+    // ☝️ This script prevent the FART effect.
+    if (localStorage.getItem("theme") === null) {
+      document.documentElement.setAttribute("data-theme", "light");
+    } else
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+  </script>
+
+  <body class="flex flex-col min-h-screen">
+    <!-- Main Nav -->
+    <div class="navbar bg-base-100 z-[100]">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" id="alb" aria-label="Open navigation menu" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+            </svg>
+          </div>
+
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+
+<li>
+  <a>About</a>
+  <ul class="p-2">
+    <li><a href='/about/summer.html'>Summer Program</a></li><li><a href='/about/projects.html'>PROJECTS Program</a></li><li><a href='/about/history.html'>Our History</a></li>
+  </ul>
+</li>
+
+
+<li>
+  <a>Staff</a>
+  <ul class="p-2">
+    <li><a href='/staff/2024_directory.html'>2024 Staff Directory</a></li><li><a href='/staff/board_members.html'>Board Members</a></li><li><a href='/staff/current_staff.html'>Staff Members</a></li>
+  </ul>
+</li>
+
+
+<li><a href='/parents.html'>For Campers</a></li>
+
+<li><a href='/employment.html'>Employment</a></li>
+
+<li><a href='/contact.html'>Contact Us</a></li>
+
+<li>
+  <a>Support</a>
+  <ul class="p-2">
+    <li><a href='/support/donate.html'>Donate</a></li><li><a href='/support/fundraise.html'>Fundraser</a></li>
+  </ul>
+</li>
+
+
+          </ul>
+        </div>
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only"></span>
+          <img class="w-20 rounded-full mr-2 inline" src="/assets/images/logo.png" alt="">
+          <span class="hidden lg:inline">
+ACAP
+          </span>
+        </a>
+      </div>
+
+      <div class="navbar-center flex lg:hidden text-center">
+ACAP
+      </div>
+
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 z-10">
+
+<li class="dropdown dropdown-hover mt-[2px]">
+  <div tabindex="0" role="button" class="btn btn-ghost rounded-btn btn-sm">About</div>
+  <ul tabindex="0" class="dropdown-content bg-base-100 p-3 pt-4">
+    <li><a class='font-bold' href='/about/summer.html'>Summer Program</a></li><li><a class='font-bold' href='/about/projects.html'>PROJECTS Program</a></li><li><a class='font-bold' href='/about/history.html'>Our History</a></li>
+  </ul>
+</li>
+
+
+<li class="dropdown dropdown-hover mt-[2px]">
+  <div tabindex="0" role="button" class="btn btn-ghost rounded-btn btn-sm">Staff</div>
+  <ul tabindex="0" class="dropdown-content bg-base-100 p-3 pt-4">
+    <li><a class='font-bold' href='/staff/2024_directory.html'>2024 Staff Directory</a></li><li><a class='font-bold' href='/staff/board_members.html'>Board Members</a></li><li><a class='font-bold' href='/staff/current_staff.html'>Staff Members</a></li>
+  </ul>
+</li>
+
+
+<li><a class='font-bold' href='/parents.html'>For Campers</a></li>
+
+<li><a class='font-bold' href='/employment.html'>Employment</a></li>
+
+<li><a class='font-bold' href='/contact.html'>Contact Us</a></li>
+
+<li class="dropdown dropdown-hover mt-[2px]">
+  <div tabindex="0" role="button" class="btn btn-ghost rounded-btn btn-sm">Support</div>
+  <ul tabindex="0" class="dropdown-content bg-base-100 p-3 pt-4">
+    <li><a class='font-bold' href='/support/donate.html'>Donate</a></li><li><a class='font-bold' href='/support/fundraise.html'>Fundraser</a></li>
+  </ul>
+</li>
+
+
+        </ul>
+      </div>
+
+      <div class="navbar-end">
+        <details id="theme-change" class="dropdown details-reset details-overlay details-overlay-dark z-10 mr-4">
+          <summary class="btn btn-sm sm:btn-md btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42"></path>
+            </svg>
+            <span class="hidden sm:inline">Theme</span>
+          </summary>
+          <ul tabindex="0" class="dropdown-menu absolute right-0 w-56 p-2 mt-2 text-gray-800 dark:text-white animate-slide-in-down rounded-lg shadow-md">
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="light">
+                🌞️ Light Mode
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="dark" data-key="front-page">
+                🔥 Dark Mode
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="cupcake">
+                🍰 Cupcake
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="bumblebee">
+                🐝 Bumblebee
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="emerald">
+                ✨ Emerald
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="corporate">
+                🏢 Corporate
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="synthwave">
+                🎸 Synthwave
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="retro">
+                👴 Retro
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="cyberpunk">
+                🤖 Cyberpunk
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="valentine">
+                💕 Valentine
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="halloween">
+                🎃 Halloween
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="garden">
+                🌻 Garden
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="forest">
+                🌲 Forest
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="aqua">
+                🐳 Aqua
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="lofi">
+                📺 LoFi
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="pastel">
+                🧁 Pastel
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="fantasy">
+                🧚‍♀️ Fantasy
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="wireframe">
+                📈 Wireframe
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="black">
+                🏠 Black
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="luxury">
+                💼 Luxury
+              </a>
+            </li>
+            <li>
+              <a href="#" class="theme-change__option flex items-center gap-2 hover:bg-gray-200 py-2 px-3  whitespace-nowrap" data-theme="dracula">
+                🧛‍♂️ Dracula
+              </a>
+            </li>
+          </ul>
+        </details>
+      </div>
+    </div>
+
+    <div class="mb-auto">
+      <div class="prose lg:prose-lg mx-auto py-20" class="mb-auto">
+
+  <h1>Just another test post</h1>
+  <p>
+    
+  <a href="/tags/april.html" class="my-2 no-underline hover:bg-primary hover:text-primary-content badge badge-outline hover:badge-primary-content">
+    april
+  </a>
+
+  <a href="/tags/fools.html" class="my-2 no-underline hover:bg-primary hover:text-primary-content badge badge-outline hover:badge-primary-content">
+    fools
+  </a>
+
+    <span class="block">
+      Publish: Fri, January 20 2023
+    </span>
+  </p>
+  <hr>
+<h2>
+Heres a great example of all the different styles markdown can offer.</h2>
+<p>
+Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+<p>
+There should be whitespace between paragraphs.</p>
+<p>
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<h1>
+<a href="#header-1"></a>Header 1</h1>
+<p>
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+<h2>
+<a href="#header-2"></a>Header 2</h2>
+<blockquote>
+  <p>
+This is a blockquote following a header.  </p>
+  <p>
+When something is important enough, you do it even if the odds are not in your favor.  </p>
+</blockquote>
+<h4>
+<a href="#header-4-with-code-not-transformed"></a>Header 4 <code class="inline">with code not transformed</code></h4>
+<ul>
+  <li>
+  This is an unordered list following a header.  </li>
+  <li>
+  This is an unordered list following a header.  </li>
+  <li>
+  This is an unordered list following a header.  </li>
+</ul>
+<h5>
+<a href="#header-5"></a>Header 5</h5>
+<ol>
+  <li>
+ This is an ordered list following a header.  </li>
+  <li>
+ This is an ordered list following a header.  </li>
+  <li>
+ This is an ordered list following a header.  </li>
+</ol>
+<h6>
+<a href="#header-6"></a>Header 6</h6>
+<p>
+<a href=".">This is a very long link which wraps and therefore doesn’t overflow
+even when it comes at the beginning</a> of the line.</p>
+<ul>
+  <li>
+<a href=".">This is a very long link which wraps and therefore doesn’t overflow the line
+when used first in an item </a> in a list.  </li>
+</ul>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">
+head1      </th>
+      <th style="text-align: left;">
+head two      </th>
+      <th style="text-align: left;">
+three      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">
+ok      </td>
+      <td style="text-align: left;">
+good swedish fish      </td>
+      <td style="text-align: left;">
+nice      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+out of stock      </td>
+      <td style="text-align: left;">
+good and plenty      </td>
+      <td style="text-align: left;">
+nice      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+ok      </td>
+      <td style="text-align: left;">
+good <code class="inline">oreos</code>      </td>
+      <td style="text-align: left;">
+hmm      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+ok      </td>
+      <td style="text-align: left;">
+good <code class="inline">zoute</code> drop      </td>
+      <td style="text-align: left;">
+yumm      </td>
+    </tr>
+  </tbody>
+</table>
+<h3>
+There’s a horizontal rule below this.</h3>
+<hr class="thick">
+<h3>
+Here is an unordered list:</h3>
+<ul>
+  <li>
+  Item foo  </li>
+  <li>
+  Item bar  </li>
+  <li>
+  Item baz  </li>
+  <li>
+  Item zip  </li>
+</ul>
+<h3>
+And an ordered list:</h3>
+<ol>
+  <li>
+ Item one  </li>
+  <li>
+ Item two  </li>
+  <li>
+ Item three  </li>
+  <li>
+ Item four  </li>
+</ol>
+<h3>
+And an ordered list, continued:</h3>
+<ol>
+  <li>
+ Item one  </li>
+  <li>
+ Item two  </li>
+</ol>
+<p style="counter-reset:none">
+Some text</p>
+<ol>
+  <li>
+ Item three  </li>
+  <li>
+ Item four  </li>
+</ol>
+<h3 style="counter-reset:step-counter 41">
+And an ordered list starting from 42:</h3>
+<ol>
+  <li>
+ Item 42  </li>
+  <li>
+ Item 43  </li>
+  <li>
+ Item 44  </li>
+</ol>
+<h3>
+And a nested list:</h3>
+<ul>
+  <li>
+level 1 item    <ul>
+      <li>
+level 2 item      </li>
+      <li>
+level 2 item        <ul>
+          <li>
+level 3 item          </li>
+          <li>
+level 3 item          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item    <ul>
+      <li>
+level 2 item      </li>
+      <li>
+level 2 item      </li>
+      <li>
+level 2 item      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item    <ul>
+      <li>
+level 2 item      </li>
+      <li>
+level 2 item      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item  </li>
+</ul>
+<h3>
+Nesting an ol in ul in an ol</h3>
+<ul>
+  <li>
+level 1 item (ul)    <ol>
+      <li>
+level 2 item (ol)      </li>
+      <li>
+level 2 item (ol)      </li>
+    </ol>
+    <ul>
+      <li>
+level 3 item (ul)      </li>
+      <li>
+level 3 item (ul)      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item (ul)    <ol>
+      <li>
+level 2 item (ol)      </li>
+      <li>
+level 2 item (ol)      </li>
+    </ol>
+    <ul>
+      <li>
+level 3 item (ul)      </li>
+      <li>
+level 3 item (ul)      </li>
+    </ul>
+    <ol>
+      <li>
+level 4 item (ol)      </li>
+      <li>
+level 4 item (ol)      </li>
+    </ol>
+    <ul>
+      <li>
+level 3 item (ul)      </li>
+      <li>
+level 3 item (ul)      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item (ul)  </li>
+</ul>
+<h3>
+And a task list</h3>
+<ul>
+  <li>
+[ ] Hello, this is a TODO item  </li>
+  <li>
+[ ] Hello, this is another TODO item  </li>
+  <li>
+[x] Goodbye, this item is done  </li>
+</ul>
+<h3>
+Nesting task lists</h3>
+<ul>
+  <li>
+[ ] level 1 item (task)    <ul>
+      <li>
+[ ] level 2 item (task)      </li>
+      <li>
+[ ] level 2 item (task)      </li>
+    </ul>
+  </li>
+  <li>
+[ ] level 1 item (task)  </li>
+  <li>
+[ ] level 1 item (task)  </li>
+</ul>
+<h3>
+Nesting a ul in a task list</h3>
+<ul>
+  <li>
+[ ] level 1 item (task)    <ul>
+      <li>
+level 2 item (ul)      </li>
+      <li>
+level 2 item (ul)      </li>
+    </ul>
+  </li>
+  <li>
+[ ] level 1 item (task)  </li>
+  <li>
+[ ] level 1 item (task)  </li>
+</ul>
+<h3>
+Nesting a task list in a ul</h3>
+<ul>
+  <li>
+level 1 item (ul)    <ul>
+      <li>
+[ ] level 2 item (task)      </li>
+      <li>
+[ ] level 2 item (task)      </li>
+    </ul>
+  </li>
+  <li>
+level 1 item (ul)  </li>
+  <li>
+level 1 item (ul)  </li>
+</ul>
+<h3>
+Small image</h3>
+<p>
+  <img src="../../assets/images/small-image.jpg" alt="">
+</p>
+<h3>
+Large image</h3>
+<p>
+  <img src="../../assets/images/large-image.jpg" alt="">
+</p>
+<p>
+“<a href="https://www.flickr.com/photos/97810305@N08/9401451269">Wroclaw University Library digitizing rare archival texts</a>“ by <a href="https://www.flickr.com/photos/97810305@N08">j_cadmus</a> is marked with <a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>.</p>
+<h3>
+Labels</h3>
+<p class="label">
+I’m a label</p>
+<p class="label-blue label">
+blue</p>
+<p class="label-green label">
+green</p>
+<p class="label-purple label">
+purple</p>
+<p class="label-yellow label">
+yellow</p>
+<p class="label-red label">
+red</p>
+<p class="label">
+<strong>bold</strong></p>
+<p class="label">
+<em>italic</em></p>
+<p class="label">
+<strong><em>bold + italic</em></strong></p>
+<h3>
+Definition lists can be used with HTML syntax.</h3>
+<dl>
+  <dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd></dl>
+<h4>
+Multiple description terms and values</h4>
+<p>
+Term
+: Brief description of Term</p>
+<p>
+Longer Term
+: Longer description of Term,
+  possibly more than one line</p>
+<p>
+Term
+: First description of Term,
+  possibly more than one line</p>
+<p>
+: Second description of Term,
+  possibly more than one line</p>
+<p>
+Term1
+Term2
+: Single description of Term1 and Term2,
+  possibly more than one line</p>
+<p>
+Term1
+Term2
+: First description of Term1 and Term2,
+  possibly more than one line</p>
+<p>
+: Second description of Term1 and Term2,
+  possibly more than one line</p>
+
+
+      </div>
+    </div>
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content">
+      <aside>
+        <p>ACAP © 2024</p>
+      </aside>
+    </footer>
+  </body>
+</html>
