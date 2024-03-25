@@ -1,16 +1,10 @@
 site_information:
-<<<<<<< HEAD
   title: ACAP
   description: "Autistic Community Activity Program | Education through recreation"
-=======
-  title: Invariable
-  description: "A static site generator"
->>>>>>> main
   logo: /assets/logo.png
 
 navigation_items:
   - label: About
-<<<<<<< HEAD
     children: # No URL specified here since it's just a branch node without a page associated with it
       - label: Summer Program
         url: /about/summer.html
@@ -38,14 +32,3 @@ navigation_items:
         url: /support/donate.html
       - label: Fundraser
         url: /support/fundraise.html
-=======
-    url: /about.html
-  - label: Blog
-    children: # No URL specified here since it's just a branch node without a page associated with it
-      - label: Posts
-        url: /blog.html
-      - label: Tags
-        url: /tags.html
-  - label: Source
-    url: https://github.com/DeadEgos/Invariable
->>>>>>> main
