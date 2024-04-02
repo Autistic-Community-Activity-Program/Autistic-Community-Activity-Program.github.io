@@ -17,7 +17,7 @@
   <h1 class="text-5xl font-black text-base-content tracking-tight mb-2">
     Autistic Community Activity Programs
   </h1>
-  <p class="font-bold text-2xl">Education through reaction</p>
+  <p class="font-bold text-2xl">Education through recreation</p>
 </div>
 </div>
 
