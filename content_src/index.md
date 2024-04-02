@@ -10,11 +10,12 @@
 <img src="/assets/images/History_04.jpg/" class="absolute inset-0 -z-10 object-top object-cover opacity-[.1] h-screen w-full">
 <div class="mx-auto flex flex-col h-full items-center justify-center">
     <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 bg-base-100">
-        We are hiring! <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Join the team <span aria-hidden="true">&rarr;</span></a>
+      <div class="relative rounded-full px-5 py-3 text-sm leading-6ring-1 ring-gray-900/10 hover:ring-gray-900/20 bg-base-100 text-base-content">
+        We are hiring! <a href="#" class="font-semibold text-secondary"><span class="absolute inset-0" aria-hidden="true"></span>Join the team <span aria-hidden="true">&rarr;</span></a>
       </div>
     </div>
-  <h1 class="text-5xl font-black text-base-content tracking-tight mb-2">
+    
+  <h1 class="text-5xl font-black text-base-content tracking-tight mb-4">
     Autistic Community Activity Programs
   </h1>
   <p class="font-bold text-2xl">Education through recreation</p>
