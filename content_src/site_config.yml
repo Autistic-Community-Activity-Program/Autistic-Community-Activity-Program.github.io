@@ -14,16 +14,16 @@ navigation_items:
         url: /about/history.html
   - label: Staff
     children: 
-      - label: 2024 Staff Directory
-        url: /staff/2024_directory.html
-      - label: Board Members
-        url: /staff/board_members.html
-      - label: Staff Members
-        url: /staff/current_staff.html
-  - label: For Campers
-    url: /parents.html # Note url since its the first link only could also be full url to external source
-  - label: Employment
-    url: /employment.html
+      - label: Our Team
+        url: /our-team.html
+      - label: Employment
+        url: /employment.html
+  - label: Enrollment
+    children:
+    - label: Summer camp
+      url: /camp-enrollment.html
+    - label: Projects
+      url: "/projects-enrollment.html"
   - label: Contact Us
     url: /contact.html
   - label: Support
@@ -32,3 +32,7 @@ navigation_items:
         url: /support/donate.html
       - label: Fundraser
         url: /support/fundraise.html
+  - label: "Events"
+    url: "/events.html"
+  - label: "Blog"
+    url: "/blog.html"
