@@ -7,7 +7,7 @@
 ---
 
 <div class="relative isolate overflow-hidden h-screen">
-<img src="/assets/images/History_04.jpg/" class="absolute inset-0 -z-10 object-top object-cover opacity-[.1] h-screen w-full">
+<img src="/assets/images/History_04.jpg" class="absolute inset-0 -z-10 object-top object-cover opacity-[.1] h-screen w-full">
 <div class="mx-auto flex flex-col h-full items-center justify-center">
     <div class="hidden sm:mb-8 sm:flex sm:justify-center">
       <div class="relative rounded-full px-5 py-3 text-sm leading-6ring-1 ring-gray-900/10 hover:ring-gray-900/20 bg-base-100 text-base-content">
