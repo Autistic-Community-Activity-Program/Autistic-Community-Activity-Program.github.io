@@ -102,6 +102,7 @@ defmodule CalendarGenerator do
 
   def format_datetime_iso8601(iso8601_string) do
     {:ok, datetime, 0} = DateTime.from_iso8601(iso8601_string)
+    {:ok, datetime, 0} = DateTime.from_iso8601(iso8601_string)
     Calendar.strftime(datetime, "%A, %B %d %Y %I:%M %p")
   end
 

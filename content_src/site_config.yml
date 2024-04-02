@@ -24,8 +24,6 @@ navigation_items:
       url: /camp-enrollment.html
     - label: Projects
       url: "/projects-enrollment.html"
-  - label: Contact Us
-    url: /contact.html
   - label: Support
     children:
       - label: Donate
