@@ -11,13 +11,13 @@
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <div>
-        <img class="h-auto max-w-full" src="/images/History_01.jpg">
+        <img class="h-auto max-w-full" src="/assets/images/History_01.jpg">
     </div>
     <div>
-        <img class="h-auto max-w-full" src="/images/History_02.jpg">
+        <img class="h-auto max-w-full" src="/assets/images/History_02.jpg">
     </div>
     <div>
-        <img class="h-auto max-w-full" src="/images/History_03.jpg">
+        <img class="h-auto max-w-full" src="/assets/images/History_03.jpg">
     </div>
 </div>
 

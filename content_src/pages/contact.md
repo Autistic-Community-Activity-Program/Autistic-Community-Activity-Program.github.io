@@ -22,11 +22,3 @@ Milwaukie, OR 97222
 Mailing Address:
 PO Box 4606
 Portland, OR 97208
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<div id="map">
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TlV_JT9MqEsg1bvwHsn36tWdp4iF6RTc" width="350" height="350">
-  </iframe>
-</div>
-
-![captionimage](/images/car.png)
