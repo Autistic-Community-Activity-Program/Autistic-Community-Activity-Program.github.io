@@ -8,7 +8,7 @@
   
   <!-- Events section -->
 
-  <section :if={!Enum.empty?(@events)} class="mt-12 w-10/12">
+  <section :if={!Enum.empty?(@events)} class="mt-24 w-10/12">
     <h2 class="text-base font-semibold leading-6">Upcomming Events</h2>
     <ol class="mt-2 divide-y divide-neutral-content text-sm leading-6">
       <%= for event <- @events do %>
