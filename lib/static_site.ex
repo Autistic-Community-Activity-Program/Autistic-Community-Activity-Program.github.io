@@ -232,10 +232,10 @@ defmodule StaticSite do
             </a>
           </h3>
           <.render_tags tags={@event.tags} />
-          <div>
-            <span class="text-accent">Start Date:</span>
-            <time datetime={@event.start_datetime}><%= @event.start_datetime %></time>
-          </div>
+          <span class="block">
+            Start: <%= @event.end_datetime |> CalendarGenerator.format_datetime_iso8601() %>
+            End: <%= @event.end_datetime |> CalendarGenerator.format_datetime_iso8601() %>
+          </span>
           <p class="mt-5 line-clamp-3 text-sm leading-6 "><%= @event.description %></p>
         </div>
       </div>
