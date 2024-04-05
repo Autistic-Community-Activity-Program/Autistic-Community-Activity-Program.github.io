@@ -220,6 +220,28 @@ defmodule StaticSite do
     """
   end
 
+  defp render_event(assigns) do
+    ~H"""
+    <article class="flex flex-col items-start">
+      <div class="max-w-xl">
+        <div class="relative">
+          <h3 class="my-4 text-2xl font-black leading-6">
+            <a class="hover:text-secondary" href={"/#{@event.path}"}>
+              <%= @event.title %>
+            </a>
+          </h3>
+          <.render_tags tags={@event.tags} />
+          <div>
+            <span class="text-accent">Start Date:</span>
+            <time datetime={@event.start_datetime}><%= @event.start_datetime %></time>
+          </div>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 "><%= @event.description %></p>
+        </div>
+      </div>
+    </article>
+    """
+  end
+
   defp render_tag_list(assigns) do
     ~H"""
     <div class="flex flex-wrap my-2">
