@@ -10,7 +10,7 @@
 
 <div class="relative">
 <div class="bg-zinc-900 w-8/12 mx-auto">
-  <img src="/images/mentorBanner.jpg" alt="Avatar" class="object-cover opacity-60"/>
+  <img src="/assets/images/mentorBanner.jpg" alt="Avatar" class="object-cover opacity-60"/>
 </div>
 <div class="absolute inset-0 ">
   <h1 class="text-zinc-100 text-6xl font-black text-center mt-20 text-bold">How can I help?</h1>
@@ -28,7 +28,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
         
         <article class="relative isolate flex flex-col gap-8 lg:flex-row">
           <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-            <img src="/images/groceries.jpg" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+            <img src="/assets/images/groceries.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
             <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div>
@@ -74,7 +74,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
 
         <article class="relative isolate flex flex-col gap-8 lg:flex-row">
           <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-            <img src="/images/online-shopping.png" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+            <img src="/assets/images/onlineshopping.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
             <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div>
@@ -118,7 +118,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
 
         <article class="relative isolate flex flex-col gap-8 lg:flex-row">
           <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-            <img src="/images/piggy-bank.jpg" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+            <img src="/assets/images/donate.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
             <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
           </div>
           <div>
@@ -144,7 +144,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
 
         <article class="relative isolate flex flex-col gap-8 lg:flex-row">
           <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-            <img src="/images/car.png" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+            <img src="/assets/images/car.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
             <div class="absolute inset-0 rounded-2xl"></div>
           </div>
           <div>
@@ -166,7 +166,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
 
         <article class="relative isolate flex flex-col gap-8 lg:flex-row">
         <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-          <img src="/images/notepad.png" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+          <img src="/assets/images/wishlist.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
           <div class="absolute inset-0 rounded-2xl"></div>
         </div>
         <div>
@@ -206,7 +206,7 @@ Although camp fees cover most operating costs, each summer there remains a signi
 
       <article class="relative isolate flex flex-col gap-8 lg:flex-row">
         <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-          <img src="/images/volunteer.png" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+          <img src="/assets/images/volunteers.webp" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
           <div class="absolute inset-0 rounded-2xl"></div>
         </div>
         <div>
