@@ -8,6 +8,7 @@
   
   <!-- Events section -->
 
+  <div class="bg-base-300">
   <section :if={!Enum.empty?(@events)} class="mt-24 w-10/12 mx-auto">
     <h2 class="text-base font-semibold leading-6">Upcomming Events</h2>
     <ol class="mt-2 divide-y divide-neutral-content text-sm leading-6">
@@ -42,6 +43,7 @@
       <% end %>
     </ol>
   </section>
+  </div>
 
   <!-- Blog section -->
   <div :if={!Enum.empty?(@posts)} class="py-24 sm:py-42">
