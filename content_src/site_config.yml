@@ -32,5 +32,3 @@ navigation_items:
         url: /support/fundraise.html
   - label: "Events"
     url: "/events.html"
-  - label: "Blog"
-    url: "/blog.html"
