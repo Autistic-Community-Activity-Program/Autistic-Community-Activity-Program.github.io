@@ -8,7 +8,7 @@
 ---
 
 <div class="container">
-    <img src="/images/employee_2024.png">
+    <img src="/assets/images/employee_2024.png">
 
     <div class="mt-10 prose prose-xl mx-auto" id="employee-description">
       <center>
