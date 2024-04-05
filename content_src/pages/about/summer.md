@@ -14,7 +14,7 @@
 />
 <div class="mx-auto flex flex-col h-full items-center justify-center">
     <h1 class="text-5xl font-black text-base-content tracking-tight mb-4">
-    Summer Program
+    ☀️ Summer Program 😎
     </h1>
 </div>
 </div>
