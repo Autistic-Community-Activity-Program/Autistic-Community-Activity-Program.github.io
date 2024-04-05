@@ -21,6 +21,7 @@ defmodule StaticSite do
       index(%{
         index_html: index_html.body,
         posts: posts,
+        events: events,
         site_config: site_config,
         wrapper_class: nil,
         tags: tags,
