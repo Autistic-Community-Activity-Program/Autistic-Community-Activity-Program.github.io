@@ -7,6 +7,7 @@
   <%= raw(@index_html) %>
   
   <!-- Events section -->
+
   <section :if={!Enum.empty?(@events)} class="mt-12">
     <h2 class="text-base font-semibold leading-6">Upcomming Events</h2>
     <ol class="mt-2 divide-y divide-neutral-content text-sm leading-6">
@@ -31,6 +32,7 @@
               <span class="font-black block text-lg"><%= event.title %></span>
             </a>
             <span class="font-thin"><%= event.description %></span>
+            <.render_tags tags={event.tags} />
           </p>
           
         </li>
