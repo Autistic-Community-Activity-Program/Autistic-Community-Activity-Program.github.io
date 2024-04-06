@@ -57,7 +57,7 @@
     </div>
   </div>
 
-  <div class="mx-auto max-w-7xl px-8 sm:px-0 py-12 text-lg leading-8 md:leading-6">
+  <div class="mx-auto max-w-7xl px-8 sm:px-0 py-12 text-lg leading-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <article class="flex flex-col items-start">
         <img
@@ -114,8 +114,9 @@
       </div>
       <ol class="mt-8 divide-y divide-neutral-content text-sm leading-6">
         <%= for event <- @events do %>
-          <li class="py-8 sm:flex">
-            <div class="flex-none m-6 sm:m-0 w-2/6">
+          <li class="py-8 sm:flex px-8 md:px-0">
+            <div class="hidden md:block flex-none w-full md:w-2/6">
+              
               <p class="mb-4">
                 <span class="badge badge-success badge-outline mr-2">Starts</span>
                 <time class="" datetime={event.start_datetime}>
@@ -128,16 +129,34 @@
                   <%= event.end_datetime |> CalendarGenerator.format_datetime_iso8601() %>
                 </time>
               </p>
+
             </div>
-            <p class="mt-2 flex-auto font-semibold sm:mt-0 text-center sm:text-left mb-8 sm:mb-0">
-              <a href={event.path}>
+            <div class="mt-2 flex-auto font-semibold sm:mt-0 sm:text-left mb-8 sm:mb-0">
+              <a href={event.path} class="block mb-2">
                 <span class="font-black block text-lg"><%= event.title %></span>
               </a>
-              <span class="block"><%= event.description %></span>
+              <span class="block mb-2"><%= event.description %></span>
+
               <span class="block">
                 <.render_tags tags={event.tags} />
               </span>
-            </p>
+
+              <p class="block md:hidden">
+              <span class="badge badge-success badge-outline mr-2">Starts</span>
+              <time class="" datetime={event.start_datetime}>
+                <%= event.start_datetime |> CalendarGenerator.format_datetime_iso8601() %>
+              </time>
+              </p>
+
+              <p class="block md:hidden">
+              <span class="badge badge-error badge-outline mr-2">Ends</span>
+              <time class="" datetime={event.end_datetime}>
+                <%= event.end_datetime |> CalendarGenerator.format_datetime_iso8601() %>
+              </time>
+              </p>
+
+            </div>
+
           </li>
         <% end %>
       </ol>
