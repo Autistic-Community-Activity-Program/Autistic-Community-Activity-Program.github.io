@@ -1,8 +1,8 @@
 %{
   title: "Summer Program",
-  author: "Josh Chernoff",
+  author: "",
   tags: ~w(summer programs),
-  description: "Let's learn how to do pranks!",
+  description: "",
   wrapper_class: ""
 }
 ---
