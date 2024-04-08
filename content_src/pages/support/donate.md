@@ -7,19 +7,20 @@
 }
 ---
 
-
-<div class="relative">
-<div class="bg-zinc-900 w-8/12 mx-auto">
-  <img src="/assets/images/mentorBanner.jpg" alt="Avatar" class="object-cover opacity-60"/>
+<div class="relative isolate overflow-hidden py-20">
+<img
+    src="/assets/images/mentorBanner.jpg"
+    class="absolute inset-0 -z-10 object-center object-cover opacity-[.3] h-full w-full"
+/>
+<div class="mx-auto max-w-4xl flex flex-col h-full items-center justify-center">
+  <h1 class="font-black text-base-content tracking-tight text-2xl sm:text-5xl py-0 sm:py-12 mb-4">
+    Ways you can help donate
+  </h1>
 </div>
-<div class="absolute inset-0 ">
-  <h1 class="text-zinc-100 text-6xl font-black text-center mt-20 text-bold">How can I help?</h1>
 </div>
-</div>
-
 
 Although camp fees cover most operating costs, each summer there remains a significant financial responsibility to our teachers, assistants, program staff, and continued costs to sustain the organization. In addition, many government-sponsored assistance programs to do not provide funds to the family until after the service is provided. This puts a strain on ACAP as well as our clients. In order to fill this gap, ACAP relies heavily on grants, fundraising, and donations from the community 
-{: .prose .prose-2xl .mx-auto .py-20}
+{: .prose .prose-2xl .mx-auto .px-8 .sm:px-0 .py-10}
 
 <div class="mb-20">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">

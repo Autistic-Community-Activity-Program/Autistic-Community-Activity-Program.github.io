@@ -7,19 +7,17 @@
 }
 ---
 
-<div class="relative isolate overflow-hidden h-72">
-<img
-    src="/assets/images/camp.webp"
-    class="absolute inset-0 -z-10 object-bottom object-cover opacity-[.2] h-screen w-full"
-/>
-<div class="mx-auto flex flex-col h-full items-center justify-center">
-    <h1 class="text-5xl font-black text-base-content tracking-tight mb-4">
-    ☀️ Summer Program 😎
-    </h1>
+<div class="relative isolate overflow-hidden py-20">
+<div class="absolute inset-0 -z-10 object-top object-cover opacity-[.15] h-[200%] w-[200%]  bg-base bg-[url('/assets/images/camp2.webp')] bg-[length:350px] ">
+</div>
+<div class="mx-auto max-w-4xl flex flex-col h-full items-center justify-center">
+  <h1 class="font-black text-base-content tracking-tight text-4xl sm:text-5xl mb-4">
+     ☀️ Summer Program 😎
+  </h1>
 </div>
 </div>
 
-<div class="prose lg:prose-lg mx-auto py-20">
+<div class="px-8 sm:px-0 prose lg:prose-lg mx-auto py-20">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
         <img class="h-auto max-w-full" src="/assets/images/summer-1.jpg">
