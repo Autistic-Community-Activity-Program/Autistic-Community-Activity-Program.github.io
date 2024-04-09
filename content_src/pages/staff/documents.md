@@ -10,7 +10,7 @@
 
 # Current Staff Self help{: .text-3xl text-bold}
 
-![](/images/current-staff.jpg)
+![](/assets/images/current-staff.jpg)
 
 <div>
 <div class="px-4 sm:px-0">

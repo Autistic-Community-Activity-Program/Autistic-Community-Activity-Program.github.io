@@ -14,7 +14,7 @@
     </div>
     <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
       <li class="rounded-2xl px-8 py-10">
-        <img class="mx-auto rounded-full w-56" src="/images/krista.jpg" alt="">
+        <img class="mx-auto rounded-full w-56" src="/assets/images/krista.jpg" alt="">
         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight">Krista Kamin</h3>
         <p class="text-sm leading-6">Admin</p>
         <ul role="list" class="mt-6 flex justify-center gap-x-6">
@@ -27,7 +27,7 @@
       </li>
 
       <li class="rounded-2xl px-8 py-10">
-        <img class="mx-auto rounded-full w-56" src="/images/phyllis.jpg" alt="">
+        <img class="mx-auto rounded-full w-56" src="/assets/images/phyllis.jpg" alt="">
         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight">Phyllis Stafford</h3>
         <p class="text-sm leading-6">Admin</p>
         <ul role="list" class="mt-6 flex justify-center gap-x-6">
@@ -40,7 +40,7 @@
       </li>
 
       <li class="rounded-2xl px-8 py-10">
-        <img class="mx-auto rounded-full w-56" src="/images/kayla.jpeg" alt="">
+        <img class="mx-auto rounded-full w-56" src="/assets/images/kayla.jpeg" alt="">
         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight">Kayla Cooper</h3>
         <p class="text-sm leading-6">Milwaukie Site Supervisor, Community Workshop Programming Liason</p>
         <ul role="list" class="mt-6 flex justify-center gap-x-6">
@@ -52,7 +52,7 @@
         </ul>
       </li>
       <li class="rounded-2xl px-8 py-10">
-        <img class="mx-auto rounded-full w-56" src="/images/justin.jpg" alt="">
+        <img class="mx-auto rounded-full w-56" src="/assets/images/justin.jpg" alt="">
         <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight">Justin Wright</h3>
         <p class="text-sm leading-6">Middle Teacher</p>
         <ul role="list" class="mt-6 flex justify-center gap-x-6">

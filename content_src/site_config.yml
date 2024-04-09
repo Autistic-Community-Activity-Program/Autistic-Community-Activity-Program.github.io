@@ -15,9 +15,11 @@ navigation_items:
   - label: Staff
     children: 
       - label: Our Team
-        url: /our-team.html
+        url: /staff/current-staff.html
       - label: Employment
         url: /employment.html
+      - label: Employee handbooks
+        url: /staff/documents.html
   - label: Enrollment
     children:
     - label: Summer camp
