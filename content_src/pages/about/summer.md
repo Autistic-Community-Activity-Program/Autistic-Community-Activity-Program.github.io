@@ -11,7 +11,7 @@
 <div class="absolute inset-0 -z-10 object-top object-cover opacity-[.15] h-[200%] w-[200%]  bg-base bg-[url('/assets/images/camp2.webp')] bg-[length:350px] ">
 </div>
 <div class="mx-auto max-w-4xl flex flex-col h-full items-center justify-center">
-  <h1 class="font-black text-base-content tracking-tight text-4xl sm:text-5xl mb-4">
+  <h1 class="font-black text-base-content tracking-tight text-3xl sm:text-5xl mb-4">
      ☀️ Summer Program 😎
   </h1>
 </div>
