@@ -24,13 +24,15 @@ defmodule CalendarGenerator do
 
   defp set_events(day, events) do
     Enum.filter(events, fn event ->
-      Date.compare(day, event.start_datetime) in [:eq, :gt] and Date.compare(day, event.end_datetime) in [:eq, :lt]
+      Date.compare(day, event.start_datetime) in [:eq, :gt] and
+        Date.compare(day, event.end_datetime) in [:eq, :lt]
     end)
   end
 
   defp has_event?(day, events) do
     Enum.any?(events, fn event ->
-      Date.compare(day, event.start_datetime) in [:eq, :gt] and Date.compare(day, event.end_datetime) in [:eq, :lt]
+      Date.compare(day, event.start_datetime) in [:eq, :gt] and
+        Date.compare(day, event.end_datetime) in [:eq, :lt]
     end)
   end
 
@@ -90,5 +92,4 @@ defmodule CalendarGenerator do
   def format_datetime_iso8601(iso8601_string) do
     Calendar.strftime(iso8601_string, "%A, %B %d %Y %I:%M %p")
   end
-
 end
