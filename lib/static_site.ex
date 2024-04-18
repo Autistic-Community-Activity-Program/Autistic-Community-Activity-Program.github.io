@@ -1,4 +1,5 @@
 defmodule StaticSite do
+  alias File.Stat
   use Phoenix.Component
   import Phoenix.HTML
 
@@ -14,6 +15,7 @@ defmodule StaticSite do
     pages = StaticSite.Pages.all_pages()
     tags = StaticSite.Blog.all_tags()
     events = StaticSite.Events.all_events()
+    current_events = StaticSite.Events.current_events()
     [index_html] = StaticSite.Index.content()
 
     render_file(
@@ -21,7 +23,7 @@ defmodule StaticSite do
       index(%{
         index_html: index_html.body,
         posts: posts,
-        events: events,
+        events: current_events,
         site_config: site_config,
         wrapper_class: nil,
         tags: tags,

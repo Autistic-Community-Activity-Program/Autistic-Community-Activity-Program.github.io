@@ -11,4 +11,13 @@ defmodule StaticSite.Events do
 
   # Export the events
   def all_events, do: @events
+
+  def current_events do
+    events = all_events()
+    today = Date.utc_today()
+
+    Enum.filter(events, fn event ->
+      Date.compare(event.start_datetime, today) != :lt
+    end)
+  end
 end
